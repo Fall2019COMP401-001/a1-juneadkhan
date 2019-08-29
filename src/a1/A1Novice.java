@@ -62,7 +62,8 @@ public class A1Novice {
 		
 		  int noOfRows = dataArray.length;
 		  for (int j=0; j < noOfRows; j++) {
-			  System.out.println(dataArray[j][0] + ". " + dataArray[j][1] + ": " + String.format("%.2f",dataArray[j][2]));
+			  double tempPrice = Double.parseDouble(dataArray[j][2]);
+			  System.out.println(dataArray[j][0] + ". " + dataArray[j][1] + ": " + String.format("%.2f", tempPrice));
 		  }
 
 	}
