@@ -89,7 +89,7 @@ public class A1Adept {
 							 //System.out.println("Comparison Variable is: " + comparisonVariable);//DEBUG 
 							 //System.out.println("Price: " + itemPrice);//DEBUG 
 
-							 for (int q=0; q < (dataArray[p].length) ; q += 2) {
+							 for (int q=0; q+3 < (dataArray[p].length) ; q += 2) {
 									//System.out.println("Q= " + q + "and dataArray[p].length =" + dataArray[p].length);//DEBUG 
 									String tempQuantity = dataArray[p][3+q];
 									boolean NullCheck = (tempQuantity != null);
