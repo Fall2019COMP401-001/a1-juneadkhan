@@ -146,6 +146,9 @@ public class A1Jedi {
 			if (finalCustomers == "0") {
 				finalCustomers = "No";
 			}
+			if (finalCustomers == "") {
+				finalCustomers = "0";
+			}
 			System.out.println(finalCustomers + " customers bought " + finalBought + " " + itemArray[g][0]);
 
 			
